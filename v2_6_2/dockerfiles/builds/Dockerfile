@@ -3,6 +3,8 @@ FROM ubuntu:16.04
 MAINTAINER Optimum <info@optimum-web.com>
 ENV MODX_VERSION 2.6.2
 
+RUN groupadd -r -g 2000 trydirect; useradd -r -u 2000 -g 2000 -m -c "app account" -d /home/trydirect -s /bin/bash trydirect
+
 RUN apt-get update -y -qq ; apt-get install -y -qq software-properties-common; \
     LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php -y; apt-get update -y -qq; \
     apt-get install -y -qq nginx sudo supervisor cron  unzip  \
@@ -19,4 +21,3 @@ ADD ./scripts/letsencrypt-auto /opt/letsencrypt/letsencrypt-auto
 
 RUN chmod +x /opt/letsencrypt/letsencrypt-auto; /opt/letsencrypt/letsencrypt-auto  --os-packages-only --install-only --non-interactive;
 RUN apt-get clean; apt-get autoclean; apt-get autoremove -y -qq;  apt-get clean -y -qq;
-
