@@ -13,7 +13,7 @@ RUN apt-get update -y -qq ; apt-get install -y -qq software-properties-common; \
     mkdir -p /opt/letsencrypt
 
 ADD ./archives/modx-${MODX_VERSION}-pl.zip /usr/src
-RUN unzip -qq /usr/src/modx-${MODX_VERSION}-pl.zip -d /usr/src
+# RUN unzip -qq /usr/src/modx-${MODX_VERSION}-pl.zip -d /usr/src
 ADD ./configs/php/fpm/php.ini /etc/php/7.1/fpm/php.ini
 ADD ./configs/php/www.conf /etc/php/7.1/fpm/pool.d/www.conf
 ADD ./configs/supervisord/modx.conf /etc/supervisor/conf.d/modx.conf
