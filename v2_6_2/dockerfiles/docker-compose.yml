@@ -6,7 +6,7 @@ volumes:
 
 services:
   modx:
-    image: ${REGISTRY}optimum/cms:modx-2.6.2-s
+    image: trydirect/modx:2.6.2
     container_name: modx
     hostname: modx
     user: root
@@ -34,19 +34,3 @@ services:
     volumes:
         - modxdb:/var/lib/mysql
     env_file: .env
-
-  status:
-    image: ${REGISTRY}trydirect/status
-    container_name: docker_status_panel
-    restart: always
-    ports:
-      - "5000:5000"
-    volumes:
-      - ./nginx:/app/destination_conf
-      - ./nginx_original:/app/origin_conf
-      - ./config.json:/app/config.json
-      - /var/run/docker.sock:/var/run/docker.sock
-    environment:
-      - NGINX_CONTAINER=modx
-      - STATUS_PANEL_USERNAME=admin
-      - STATUS_PANEL_PASSWORD=${MYSQL_PASSWORD}
