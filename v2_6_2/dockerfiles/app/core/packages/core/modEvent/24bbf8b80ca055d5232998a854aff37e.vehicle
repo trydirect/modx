@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1529530ff522eab4602da22f072ba41b',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '24bbf8b80ca055d5232998a854aff37e',
+  'native_key' => 'OnBeforeWebLogin',
+  'object' => '{"name":"OnBeforeWebLogin","service":3,"groupname":"Security"}',
+);

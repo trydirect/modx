@@ -1,0 +1,205 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Children' => 
+    array (
+      '46b27ec9174c6486cdf1ab5dbd7f691d' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'class' => 'modMenu',
+        'object' => '{"text":"user","parent":"usernav","action":"","description":"","icon":"<span id=\\"user-avatar\\">{$userImage}<\\/span> <span id=\\"user-username\\">{$username}<\\/span>","menuindex":5,"params":"","handler":"","permissions":"menu_user","namespace":"core"}',
+        'guid' => '10dee2fe1e0e02910b1074871a763bc0',
+        'native_key' => 'user',
+        'signature' => '59c9f9bfc346f908e163346712ff0714',
+        'related_objects' => 
+        array (
+          'Children' => 
+          array (
+            '71296f8083dd146264305e3120718a8b' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 'text',
+              'class' => 'modMenu',
+              'object' => '{"text":"profile","parent":"user","action":"security\\/profile","description":"profile_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"change_profile","namespace":"core"}',
+              'guid' => 'b8714d6446ff29d8f4ce6b5a77bd4e25',
+              'native_key' => 'profile',
+              'signature' => '795bc1c4dad8e42779b933c4054588ba',
+            ),
+            '1f7ac3d94a58a04676c264772a4eef75' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 'text',
+              'class' => 'modMenu',
+              'object' => '{"text":"messages","parent":"user","action":"security\\/message","description":"messages_desc","icon":"","menuindex":1,"params":"","handler":"","permissions":"messages","namespace":"core"}',
+              'guid' => 'a911c9398e06da56fb5b7a5c773e59f6',
+              'native_key' => 'messages',
+              'signature' => '497d35b3859e874b73ad698129fee4ba',
+            ),
+            '998129cb3694cd722aca26294810b980' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 'text',
+              'class' => 'modMenu',
+              'object' => '{"text":"logout","parent":"user","action":"security\\/logout","description":"logout_desc","icon":"","menuindex":2,"params":"","handler":"MODx.logout(); return false;","permissions":"logout","namespace":"core"}',
+              'guid' => '8b591d68d47ae27f5ac80436c1cdaafa',
+              'native_key' => 'logout',
+              'signature' => 'b9973cdb73a9b3940514a5828710a877',
+            ),
+          ),
+        ),
+      ),
+      '4415e943a3856da18c00483ef964f32a' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'class' => 'modMenu',
+        'object' => '{"text":"admin","parent":"usernav","action":"","description":"","icon":"<i class=\\"icon-gear icon icon-large\\"><\\/i>","menuindex":6,"params":"","handler":"","permissions":"settings","namespace":"core"}',
+        'guid' => 'be144f41f3442e31ed4e4bd821aec757',
+        'native_key' => 'admin',
+        'signature' => '36b9627c9e86b9806b6859d0c0aa5d68',
+        'related_objects' => 
+        array (
+          'Children' => 
+          array (
+            '73acc205a99f1a63ae3503e9656b14e2' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 'text',
+              'class' => 'modMenu',
+              'object' => '{"text":"system_settings","parent":"admin","action":"system\\/settings","description":"system_settings_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"settings","namespace":"core"}',
+              'guid' => '6dac5fe8855e28c8329b1d1eaa79072f',
+              'native_key' => 'system_settings',
+              'signature' => '3129275d9e5054a143cb7de3ef8fef8f',
+            ),
+            '4e93ed75b158e09c48d3f30e0b408a8f' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 'text',
+              'class' => 'modMenu',
+              'object' => '{"text":"bespoke_manager","parent":"admin","action":"security\\/forms","description":"bespoke_manager_desc","icon":"","menuindex":1,"params":"","handler":"","permissions":"customize_forms","namespace":"core"}',
+              'guid' => '4a2dcf7e13020a2c2d3ae1125f17a6a3',
+              'native_key' => 'bespoke_manager',
+              'signature' => 'db7329aa12c7dbb9dd483b21dfcd3f2b',
+            ),
+            '3b50e0adbbb4cdb0f0b421725e0f7f92' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 'text',
+              'class' => 'modMenu',
+              'object' => '{"text":"dashboards","parent":"admin","action":"system\\/dashboards","description":"dashboards_desc","icon":"","menuindex":2,"params":"","handler":"","permissions":"dashboards","namespace":"core"}',
+              'guid' => '231e228e43104052ee6424ee7d50a86c',
+              'native_key' => 'dashboards',
+              'signature' => '3dad651fc7bfd7108913f744c6fcec31',
+            ),
+            'fb0d919bd8f5ff9ac1a809edc57d7815' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 'text',
+              'class' => 'modMenu',
+              'object' => '{"text":"contexts","parent":"admin","action":"context","description":"contexts_desc","icon":"","menuindex":3,"params":"","handler":"","permissions":"view_context","namespace":"core"}',
+              'guid' => 'edd974134c774f57a8ae0c68f17200ae',
+              'native_key' => 'contexts',
+              'signature' => 'c52cd1898d26336ee6301f7e17164f32',
+            ),
+            '75ad18960e0abfff6760fe734f2ac002' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 'text',
+              'class' => 'modMenu',
+              'object' => '{"text":"edit_menu","parent":"admin","action":"system\\/action","description":"edit_menu_desc","icon":"","menuindex":4,"params":"","handler":"","permissions":"actions","namespace":"core"}',
+              'guid' => '87a8a8d2ee771487ed2150406741ff61',
+              'native_key' => 'edit_menu',
+              'signature' => '72a75805bebec7545063a4cc58423061',
+            ),
+            '8fcc7451de5d8041f50c4ba29591f3d1' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 'text',
+              'class' => 'modMenu',
+              'object' => '{"text":"acls","parent":"admin","action":"security\\/permission","description":"acls_desc","icon":"","menuindex":5,"params":"","handler":"","permissions":"access_permissions","namespace":"core"}',
+              'guid' => 'ac39b256e495557bda40e8d4eca7409a',
+              'native_key' => 'acls',
+              'signature' => '4c9e40c0b53b26b6c413121eb28ea3b2',
+            ),
+            'e6dd51ef718a09beedd206d463fbe180' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 'text',
+              'class' => 'modMenu',
+              'object' => '{"text":"propertysets","parent":"admin","action":"element\\/propertyset","description":"propertysets_desc","icon":"","menuindex":6,"params":"","handler":"","permissions":"property_sets","namespace":"core"}',
+              'guid' => '1fb1e28aef3cc4d57ad6dfce6b755485',
+              'native_key' => 'propertysets',
+              'signature' => 'e07dcce4da920f1abfee97bac0070644',
+            ),
+            '5eea8a7c700563ee6f5188fe158d8691' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 'text',
+              'class' => 'modMenu',
+              'object' => '{"text":"lexicon_management","parent":"admin","action":"workspaces\\/lexicon","description":"lexicon_management_desc","icon":"","menuindex":7,"params":"","handler":"","permissions":"lexicons","namespace":"core"}',
+              'guid' => '56b1b355c04eb21776ce56aec4297748',
+              'native_key' => 'lexicon_management',
+              'signature' => 'a4a056d3150f36811d666c624a554fb6',
+            ),
+            'fc8fb140157e41ede0c1db15f13d3554' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 'text',
+              'class' => 'modMenu',
+              'object' => '{"text":"namespaces","parent":"admin","action":"workspaces\\/namespace","description":"namespaces_desc","icon":"","menuindex":8,"params":"","handler":"","permissions":"namespaces","namespace":"core"}',
+              'guid' => '2235fa7ca2c87f55f3ed65d3de4dc08f',
+              'native_key' => 'namespaces',
+              'signature' => '81d439bd006d57f0678a9463646fb733',
+            ),
+          ),
+        ),
+      ),
+      '883c0440a094858a7e77ad6a2a7e05fd' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'class' => 'modMenu',
+        'object' => '{"text":"about","parent":"usernav","action":"help","description":"","icon":"<i class=\\"icon-question-circle icon icon-large\\"><\\/i>","menuindex":7,"params":"","handler":"","permissions":"help","namespace":"core"}',
+        'guid' => 'bcd686dc8512cb2b093537a70994a4ae',
+        'native_key' => 'about',
+        'signature' => '049198e8aae27012b7152a6c5b85e378',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Children' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 'text',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7c9e09267dce65059d650f1293af22c0',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '931b4753a6dabbc1fd077d02a4b192c4',
+  'native_key' => 'usernav',
+  'object' => '{"text":"usernav","parent":"","action":"","description":"usernav_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"","namespace":"core"}',
+);

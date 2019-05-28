@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a3e10e2a20f706f339d068701e2d61ec',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '46d75755592ee2e54c8aee0aab1bbdd7',
+  'native_key' => 'OnPackageInstall',
+  'object' => '{"name":"OnPackageInstall","service":2,"groupname":"Package Manager"}',
+);

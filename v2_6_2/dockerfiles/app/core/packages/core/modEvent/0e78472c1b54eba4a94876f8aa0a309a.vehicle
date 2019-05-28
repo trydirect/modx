@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '45d5e7c8b2f6f5a0fda8ef98503dfa81',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '0e78472c1b54eba4a94876f8aa0a309a',
+  'native_key' => 'OnFileManagerFileCreate',
+  'object' => '{"name":"OnFileManagerFileCreate","service":1,"groupname":"System"}',
+);

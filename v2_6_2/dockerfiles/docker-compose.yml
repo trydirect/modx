@@ -14,15 +14,17 @@ services:
     restart: always
     ports:
           - "80:80"
-          - "443:443"
     working_dir: /var/www/html/modx-2.6.2-pl
     volumes:
         - ./app:/var/www/html/modx-2.6.2-pl
-        - ./nginx/conf.d:/etc/nginx/conf.d
-        - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-        - ./certs/letsencrypt:/etc/letsencrypt
-        - ./certs/ssl:/etc/nginx/ssl
-        - ./cron:/var/spool/cron/crontabs
+        - ./configs/nginx/conf.d:/etc/nginx/conf.d
+        - ./configs/nginx/nginx.conf:/etc/nginx/nginx.conf
+        - ./configs/certs/letsencrypt:/etc/letsencrypt
+        - ./configs/certs/ssl:/etc/nginx/ssl
+        - ./configs/cron:/var/spool/cron/crontabs
+        - ./configs/modx/config.xml:/var/www/html/modx-2.6.2-pl/setup/config.xml
+        - ./configs/php/fpm/php.ini:/etc/php/7.1/fpm/php.ini
+        - ./configs/php/www.conf:/etc/php/7.1/fpm/pool.d/www.conf
     links:
         - modxdb
     env_file: .env

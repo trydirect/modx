@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2f3e41a316a841c5499adeef135b8c4d',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'aca372a3f9ae2d689dd1ea0d4edbe208',
+  'native_key' => 'mail_smtp_hosts',
+  'object' => '{"key":"mail_smtp_hosts","value":"localhost","xtype":"textfield","namespace":"core","area":"mail","editedon":null}',
+);

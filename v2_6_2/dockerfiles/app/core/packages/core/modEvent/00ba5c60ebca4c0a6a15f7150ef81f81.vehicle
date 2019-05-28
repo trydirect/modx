@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7a9ed1c7a0d10e3007b9da4335305a9c',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '00ba5c60ebca4c0a6a15f7150ef81f81',
+  'native_key' => 'OnPropertySetBeforeRemove',
+  'object' => '{"name":"OnPropertySetBeforeRemove","service":1,"groupname":"Property Sets"}',
+);

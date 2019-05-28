@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'be1fe4f443cf80f2d5dc9aae379ee0ab',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f632d9c1ac058fa21f20c8871b275673',
+  'native_key' => 'mail_smtp_keepalive',
+  'object' => '{"key":"mail_smtp_keepalive","value":false,"xtype":"combo-boolean","namespace":"core","area":"mail","editedon":null}',
+);
