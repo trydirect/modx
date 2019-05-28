@@ -17,6 +17,7 @@ before_install:
 install:
 - cd v2_6_2/dockerfiles
 - docker-compose build
+- docker cp configs/config.xml /usr/src/modx-2.6.2-pl/
 - docker-compose up -d
 - docker-compose ps
 before_script:
