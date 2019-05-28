@@ -17,7 +17,6 @@ before_install:
 install:
 - cd v2_6_2/dockerfiles
 - docker-compose build
-- docker cp configs/config.xml /usr/src/modx-2.6.2-pl/
 - docker-compose up -d
 - docker-compose ps
 before_script:
@@ -25,6 +24,7 @@ before_script:
 - pip install docker
 - cd $TRAVIS_BUILD_DIR
 script:
+- bash ./.travis/linters.sh
 - python tests.py
 notifications:
   slack:
