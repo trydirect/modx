@@ -5,6 +5,9 @@
 ![Docker Build](https://img.shields.io/docker/cloud/build/trydirect/modx.svg)
 [![Gitter chat](https://badges.gitter.im/trydirect/community.png)](https://gitter.im/try-direct/community)
 
+# About project
+This project allows developers to quickly deploy MODX on their local environments for extensions/plugins development using docker-compose.
+
 ## Note
 Before installing this project, please, make sure you have installed docker and docker-compose
 
@@ -15,10 +18,7 @@ $ sh get-docker.sh
 $ pip install docker-compose
 ```
 
-# MODX
-This project allows developers to quickly start the development of MODX.
-
-# Installation
+## Installation
 Clone this project into your work directory:
 ```sh
 $ git clone "https://github.com/trydirect/modx.git"
