@@ -28,6 +28,14 @@ Run stack with:
 ```sh
 $ docker-compose up -d
 ```
+
+
+## Quick deployment to cloud
+##### Amazon AWS, Digital Ocean, Hetzner and others
+[<img src="https://img.shields.io/badge/quick%20deploy-%40try.direct-brightgreen.svg">](https://try.direct/server/user/deploy/Im1vZHh8NnwxMSI.EAoFeA.grXY615_Th-DtIdr8ZVL4f3YZ7Y/)
+
+
+
 ## Contributing
 
 1. Fork it (https://github.com/trydirect/modx/fork)
